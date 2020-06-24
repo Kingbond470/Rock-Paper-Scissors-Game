@@ -1,0 +1,57 @@
+body{
+	background-color:#252627;
+}
+.about-me
+{
+	color: #1D8348;
+	font-size: 1.5rem;
+	word-spacing: 1px;
+	padding-left: 25px;
+}
+.selections
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.selection
+{
+	background:none;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	font-size:6rem; 
+	transition: 100ms; /* it will take time to do change (instantly) */
+}
+.selection:hover
+{
+	transform: scale(1.5); /* Growing and shrinking fastly to maintain proper change in emoji(instanteously) */
+}
+.results{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2,1fr);
+	justify-items: center;
+	align-items: center;
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+.result-score
+{
+	margin-left: 0.1rem;
+	font-size: 1.3rem;
+	color: #FF1493;
+}
+.result-selection
+{
+	opacity: .5 /* It will make little deem in light the emoji*/
+}
+.result-selection.winner
+{
+	opacity: 1; /* It will bright the light of emoji of winner */
+	font-size: 2.5rem;
+}
+.you-text, .computer-text
+{
+	color: #BEBEBE;
+}
