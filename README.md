@@ -3,6 +3,7 @@ RocK Paper Scissors Game using HTML, CSS, JavaScript
 Use of CSS grid and flexbox to layout game elements.
 Creation of AI to play against it.
 
+![Screenshot](Screenshot.jpg)
 About Game:-
 Rock paper scissors is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors".
 
