@@ -3,6 +3,8 @@ RocK Paper Scissors Game using HTML, CSS, JavaScript
 Use of CSS grid and flexbox to layout game elements.
 Creation of AI to play against it.
 
+![Play Rock Paper Scissors Game](https://rockpapersscissor.netlify.app/)
+
 ![Screenshot](Screenshot.jpg)
 
 About Game:-
